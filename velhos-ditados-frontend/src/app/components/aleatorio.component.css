@@ -1,0 +1,29 @@
+:host {
+  display: flex;
+  justify-content: center; /* centraliza na horizontal */
+  align-items: center;    /* centraliza na vertical */
+  height: 100vh;          /* ocupa a altura toda da tela */
+  flex-direction: column; /* deixa o texto em cima e o botão embaixo */
+}
+
+.ditado {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #1378eb;
+  color: white;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #2105c0;
+}

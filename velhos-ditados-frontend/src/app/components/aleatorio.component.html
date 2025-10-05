@@ -1,0 +1,9 @@
+<p class="ditado" *ngIf="ditadoAtual; else semDitado">
+  {{ ditadoAtual.descricao }}
+</p>
+
+<ng-template #semDitado>
+  <p>Nenhum ditado encontrado.</p>
+</ng-template>
+
+<button class="btn" (click)="carregarDitado()">Novo ditado</button>
