@@ -1,0 +1,6 @@
+@VelhosDitados.API_HostAddress = http://localhost:5270
+
+GET {{VelhosDitados.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

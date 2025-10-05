@@ -1,0 +1,121 @@
+[
+  {
+    "ContainingType": "VelhosDitados.API.Controllers.DitadosController",
+    "Method": "GetDitados",
+    "RelativePath": "api/Ditados",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[VelhosDitados.API.Models.Ditado, VelhosDitados.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VelhosDitados.API.Controllers.DitadosController",
+    "Method": "PostDitado",
+    "RelativePath": "api/Ditados",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "VelhosDitados.API.DTOs.DitadoCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VelhosDitados.API.Models.Ditado",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VelhosDitados.API.Controllers.DitadosController",
+    "Method": "GetDitado",
+    "RelativePath": "api/Ditados/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VelhosDitados.API.Models.Ditado",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VelhosDitados.API.Controllers.DitadosController",
+    "Method": "PutDitado",
+    "RelativePath": "api/Ditados/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "ditado",
+        "Type": "VelhosDitados.API.Models.Ditado",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VelhosDitados.API.Controllers.DitadosController",
+    "Method": "DeleteDitado",
+    "RelativePath": "api/Ditados/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VelhosDitados.API.Controllers.DitadosController",
+    "Method": "GetAleatorio",
+    "RelativePath": "api/Ditados/aleatorio",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
