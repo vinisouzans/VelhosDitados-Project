@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fNz37aLPQls=",
+  "dgSpecHash": "Q4QJ+xdsP8o=",
   "success": true,
-  "projectFilePath": "C:\\Users\\vini_\\source\\repos\\VelhosDitados.API\\VelhosDitados.API.csproj",
+  "projectFilePath": "C:\\Users\\vini_\\source\\repos\\VelhosDitados-Project\\VelhosDitados.API\\VelhosDitados.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vini_\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\vini_\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

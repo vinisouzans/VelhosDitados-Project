@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vini_\\source\\repos\\VelhosDitados.API\\VelhosDitados.API.csproj": {}
+    "C:\\Users\\vini_\\source\\repos\\VelhosDitados-Project\\VelhosDitados.API\\VelhosDitados.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vini_\\source\\repos\\VelhosDitados.API\\VelhosDitados.API.csproj": {
+    "C:\\Users\\vini_\\source\\repos\\VelhosDitados-Project\\VelhosDitados.API\\VelhosDitados.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vini_\\source\\repos\\VelhosDitados.API\\VelhosDitados.API.csproj",
+        "projectUniqueName": "C:\\Users\\vini_\\source\\repos\\VelhosDitados-Project\\VelhosDitados.API\\VelhosDitados.API.csproj",
         "projectName": "VelhosDitados.API",
-        "projectPath": "C:\\Users\\vini_\\source\\repos\\VelhosDitados.API\\VelhosDitados.API.csproj",
+        "projectPath": "C:\\Users\\vini_\\source\\repos\\VelhosDitados-Project\\VelhosDitados.API\\VelhosDitados.API.csproj",
         "packagesPath": "C:\\Users\\vini_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vini_\\source\\repos\\VelhosDitados.API\\obj\\",
+        "outputPath": "C:\\Users\\vini_\\source\\repos\\VelhosDitados-Project\\VelhosDitados.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
