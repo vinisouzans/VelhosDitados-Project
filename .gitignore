@@ -20,3 +20,8 @@ npm-debug.log*
 .env
 *.pem
 *.key
+/VelhosDitados.API/.vs/VelhosDitados.API/CopilotIndices/17.14.939.21063/CodeChunks.db
+/VelhosDitados.API/.vs/VelhosDitados.API/CopilotIndices/17.14.939.21063/SemanticSymbols.db
+/VelhosDitados.API/obj/Debug/net8.0/VelhosDitados.API.AssemblyInfoInputs.cache
+/VelhosDitados.API/obj/Debug/net8.0/rpswa.dswa.cache.json
+/VelhosDitados.API/obj/Debug/net8.0/VelhosDitados.API.AssemblyInfo.cs
