@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using VelhosDitados.API.Data;
 using VelhosDitados.API.Models;
 
+Console.OutputEncoding = System.Text.Encoding.UTF8;
 var builder = WebApplication.CreateBuilder(args);
 
 // CONFIGURAÇÃO DA CONEXÃO COM SQLITE
