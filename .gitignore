@@ -1,9 +1,22 @@
-# .gitignore
-pass-ditados-aws.pem
-*.pem
-*.key
-.env
-node_modules/
+# Visual Studio
+.vs/
+*.user
+*.db
+CodeChunks.db
+SemanticSymbols.db
 bin/
 obj/
-.vs/
+
+# Node.js
+node_modules/
+npm-debug.log*
+
+# Database
+*.db
+*.mdf
+*.ldf
+
+# Environment
+.env
+*.pem
+*.key
