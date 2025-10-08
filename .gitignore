@@ -7,3 +7,5 @@ node_modules/
 bin/
 obj/
 .vs/
+/VelhosDitados.API/.vs/VelhosDitados.API/CopilotIndices/17.14.939.21063/CodeChunks.db
+/VelhosDitados.API/.vs/VelhosDitados.API/CopilotIndices/17.14.939.21063/SemanticSymbols.db
