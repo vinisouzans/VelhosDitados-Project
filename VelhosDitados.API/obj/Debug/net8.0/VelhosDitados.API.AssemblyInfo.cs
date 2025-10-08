@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VelhosDitados.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f400df68b179b4aa4718dc88a94f6fec6a8b80dc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5bf98d77e6815d3877fb7d0c1bbe56874e479163")]
 [assembly: System.Reflection.AssemblyProductAttribute("VelhosDitados.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VelhosDitados.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
