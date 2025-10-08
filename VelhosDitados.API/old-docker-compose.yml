@@ -1,0 +1,7 @@
+services:
+  velhos-ditados-api:
+    build: ./VelhosDitados.API
+    ports:
+      - "7001:8080"
+    volumes:
+      - sqlite_data:/app/data

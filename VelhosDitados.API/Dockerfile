@@ -20,3 +20,10 @@ FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "VelhosDitados.API.dll"]
+
+# Cria diretório para o SQLite
+RUN mkdir -p /app/data
+
+WORKDIR /app
+COPY --from=publish /app/publish .
+ENTRYPOINT ["dotnet", "VelhosDitados.API.dll"]

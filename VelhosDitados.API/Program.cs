@@ -4,23 +4,17 @@ using VelhosDitados.API.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// CONFIGURAÇÃO DA CONEXÃO COM SQL SERVER
+// CONFIGURAÇÃO DA CONEXÃO COM SQLITE
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
-// Se estiver em container Docker, usa o nome do serviço
+// Se estiver em container Docker, usa caminho absoluto
 if (Environment.GetEnvironmentVariable("DOTNET_RUNNING_IN_CONTAINER") == "true")
 {
-    connectionString = "Server=sql-server;Database=VelhosDitadosDb;User=sa;Password=YourPassword123!;TrustServerCertificate=true;MultipleActiveResultSets=true;";
+    connectionString = "Data Source=/app/data/velhosditados.db";
 }
 
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlServer(connectionString, sqlOptions =>
-    {
-        sqlOptions.EnableRetryOnFailure(
-            maxRetryCount: 5,
-            maxRetryDelay: TimeSpan.FromSeconds(30),
-            errorNumbersToAdd: null);
-    }));
+    options.UseSqlite(connectionString));
 
 builder.Services.AddCors(options =>
 {
@@ -56,12 +50,13 @@ using (var scope = app.Services.CreateScope())
     {
         var context = services.GetRequiredService<AppDbContext>();
 
-        Console.WriteLine("Aguardando SQL Server...");
-        await Task.Delay(10000); // Aguarda 10 segundos para o SQL Server ficar pronto
+        Console.WriteLine("Inicializando SQLite...");
+        // SQLite não precisa aguardar, é instantâneo
+        // REMOVI: await Task.Delay(10000);
 
         // Cria o banco se não existir
         await context.Database.EnsureCreatedAsync();
-        Console.WriteLine("Banco verificado/criado!");
+        Console.WriteLine("Banco SQLite verificado/criado!");
 
         // Adiciona dados iniciais se a tabela estiver vazia
         if (!context.Ditados.Any())
