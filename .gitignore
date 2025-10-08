@@ -39,3 +39,4 @@ npm-debug.log*
 /VelhosDitados.API/obj/Debug/net8.0/VelhosDitados.API.dll
 /VelhosDitados.API/obj/Debug/net8.0/VelhosDitados.API.pdb
 /VelhosDitados.API/.vs/VelhosDitados.API/v17/DocumentLayout.backup.json
+/VelhosDitados.API/velhosditados.db-shm
