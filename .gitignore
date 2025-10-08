@@ -1,11 +1,49 @@
-# .gitignore
-pass-ditados-aws.pem
-*.pem
-*.key
-.env
-node_modules/
+# Visual Studio
+.vs/
+*.user
+*.db
+CodeChunks.db
+SemanticSymbols.db
 bin/
 obj/
+<<<<<<< HEAD
 .vs/
 /VelhosDitados.API/.vs/VelhosDitados.API/CopilotIndices/17.14.939.21063/CodeChunks.db
 /VelhosDitados.API/.vs/VelhosDitados.API/CopilotIndices/17.14.939.21063/SemanticSymbols.db
+=======
+
+# Node.js
+node_modules/
+npm-debug.log*
+
+# Database
+*.db
+*.mdf
+*.ldf
+
+# Environment
+.env
+*.pem
+*.key
+/VelhosDitados.API/.vs/VelhosDitados.API/CopilotIndices/17.14.939.21063/CodeChunks.db
+/VelhosDitados.API/.vs/VelhosDitados.API/CopilotIndices/17.14.939.21063/SemanticSymbols.db
+/VelhosDitados.API/obj/Debug/net8.0/VelhosDitados.API.AssemblyInfoInputs.cache
+/VelhosDitados.API/obj/Debug/net8.0/rpswa.dswa.cache.json
+/VelhosDitados.API/obj/Debug/net8.0/VelhosDitados.API.AssemblyInfo.cs
+/VelhosDitados.API/.vs/VelhosDitados.API/DesignTimeBuild/.dtbcache.v2
+/VelhosDitados.API/.vs/VelhosDitados.API/v17/.suo
+/VelhosDitados.API/.vs/VelhosDitados.API/v17/DocumentLayout.json
+/VelhosDitados.API/bin/Debug/net8.0/VelhosDitados.API.dll
+/VelhosDitados.API/bin/Debug/net8.0/VelhosDitados.API.exe
+/VelhosDitados.API/bin/Debug/net8.0/VelhosDitados.API.pdb
+/VelhosDitados.API/obj/Debug/net8.0/apphost.exe
+/VelhosDitados.API/obj/Debug/net8.0/refint/VelhosDitados.API.dll
+/VelhosDitados.API/obj/Debug/net8.0/ref/VelhosDitados.API.dll
+/VelhosDitados.API/obj/Debug/net8.0/rjsmcshtml.dswa.cache.json
+/VelhosDitados.API/obj/Debug/net8.0/rjsmrazor.dswa.cache.json
+/VelhosDitados.API/obj/Debug/net8.0/VelhosDitados.API.dll
+/VelhosDitados.API/obj/Debug/net8.0/VelhosDitados.API.pdb
+/VelhosDitados.API/.vs/VelhosDitados.API/v17/DocumentLayout.backup.json
+/VelhosDitados.API/velhosditados.db-shm
+>>>>>>> develop
+/VelhosDitados.API/velhosditados.db-shm
