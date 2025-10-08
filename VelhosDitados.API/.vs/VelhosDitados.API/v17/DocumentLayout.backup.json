@@ -107,7 +107,11 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\vini_\\source\\repos\\VelhosDitados-Project\\VelhosDitados.API\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAzAAAAAAAAAA==",
+<<<<<<< HEAD
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABPAAAAAAAAAA==",
+>>>>>>> develop
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-22T19:22:38.423Z",
               "EditorCaption": ""
@@ -133,7 +137,11 @@
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\vini_\\source\\repos\\VelhosDitados-Project\\VelhosDitados.API\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
+<<<<<<< HEAD
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+>>>>>>> develop
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-09-22T19:18:20.194Z",
               "EditorCaption": ""

@@ -1,5 +1,6 @@
 services:
   velhos-ditados-api:
+<<<<<<< HEAD
     build: .
     ports:
       - "7001:7001"
@@ -23,3 +24,10 @@ services:
 
 volumes:
   sql_data:
+=======
+    build: ./VelhosDitados.API
+    ports:
+      - "7001:8080"
+    volumes:
+      - sqlite_data:/app/data
+>>>>>>> develop
