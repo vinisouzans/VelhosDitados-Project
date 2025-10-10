@@ -47,3 +47,5 @@ npm-debug.log*
 /VelhosDitados.API/velhosditados.db-shm
 >>>>>>> develop
 /VelhosDitados.API/velhosditados.db-shm
+/VelhosDitados.API/obj/Debug/net8.0/VelhosDitados.API.csproj.CoreCompileInputs.cache
+/VelhosDitados.API/obj/Debug/net8.0/VelhosDitados.API.csproj.FileListAbsolute.txt

@@ -11,7 +11,7 @@ using VelhosDitados.API.Data;
 namespace VelhosDitados.API.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20251008141955_InitialCreateSqlite")]
+    [Migration("20251010174238_InitialCreateSqlite")]
     partial class InitialCreateSqlite
     {
         /// <inheritdoc />
